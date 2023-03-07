@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import GoBackButton from 'components/GoBackButton/GoBackButton';
+import GoBackButton from 'components/GoBackButton';
 
 export default function MovieDetails({ movie }) {
   return (

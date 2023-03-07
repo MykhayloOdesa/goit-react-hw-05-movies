@@ -3,8 +3,8 @@ import { Link, Outlet, useParams, useLocation } from 'react-router-dom';
 
 import { getMovieDetailsById } from 'services/serviceAPI';
 
-import MovieDetails from 'components/MovieDetails/MovieDetails';
-import Loader from 'components/Loader/Loader';
+import MovieDetails from 'components/MovieDetails';
+import Loader from 'components/Loader';
 
 export default function MoviesDetails() {
   const [movie, setMovie] = useState(null);

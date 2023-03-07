@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
 import { getTrendingMovie } from 'services/serviceAPI';
-import List from 'components/List/List';
-import Loader from 'components/Loader/Loader';
+import List from 'components/List';
+import Loader from 'components/Loader';
 
 export default function Homepage() {
   const [movies, setMovies] = useState([]);

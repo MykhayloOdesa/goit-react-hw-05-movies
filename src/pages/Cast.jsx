@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import { getActors } from 'services/serviceAPI';
 
-import Actors from 'components/Actors/Actors';
+import Actors from 'components/Actors';
 
 export default function Cast() {
   const [cast, setCast] = useState([]);
